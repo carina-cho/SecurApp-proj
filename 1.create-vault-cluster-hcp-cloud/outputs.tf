@@ -31,4 +31,5 @@ output "vault_admin_token_id" {
 output "vault_admin_token" {
     description = "HCP VAULT ADMIN TOKEN"
     value = hcp_vault_cluster_admin_token.vault_admin_token.token
+    sensitive = true
 }
