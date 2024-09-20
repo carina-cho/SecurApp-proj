@@ -6,6 +6,7 @@ terraform {
     }
   }
 }
+
 provider "hcp" {
-  
+  #configuration options  
 }
