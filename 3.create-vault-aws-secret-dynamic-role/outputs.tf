@@ -23,7 +23,3 @@ output "backend_role_iam" {
   
 }
 
-output "backend_role_net" {
-    description = "Output of Vault Backend network admin role"
-    value = vault_aws_secret_backend_role.network_admin_dynamic_role.name
-}
