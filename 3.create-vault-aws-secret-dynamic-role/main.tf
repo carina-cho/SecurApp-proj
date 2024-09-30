@@ -45,7 +45,7 @@ resource "vault_aws_secret_backend_role" "network_admin_dynamic_role" {
     {
       "Effect": "Allow",
       "Action": "iam:GetUser",
-      "Resource": "arn:aws:iam::339713018668:user/vault-token-terraform-*"
+      "Resource": "arn:aws:iam::034362076599:user/vault-token-terraform-*"
     }
   ]
 }
